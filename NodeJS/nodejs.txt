@@ -1,0 +1,38 @@
+Conceitos: usuário por meio de um dispositivo > requisição > serviços (backend) > banco de dados...
+
+
+A web funciona da seguinte maneira: um usuário que utilize um dispositivo que encontra-se numa Internet, através de uma página com funcionalidades, requisita uma informação ou um serviço, no qual está armazenado em banco de dados da empresa que o advém, mas antes disso o processamento de informações é feito através de uma funcionalidade chamada API, que faz a síntese de dados entre o Front-end o Back-end e o banco de dados...
+
+A web funciona por meio da comunicação entre um cliente (navegador) e um servidor usando o protocolo HTTP. O cliente envia uma solicitação HTTP ao servidor, que processa a solicitação e envia uma resposta de volta. O cliente interpreta os dados recebidos e os exibe na tela, renderizando a página da web. Além disso, recursos adicionais, como imagens e scripts, são solicitados separadamente. Essa é uma visão geral simplificada do funcionamento da web.
+
+Back-end > É o método de sintetizar informações de uma página com o banco de dados e através dessa, requisitar serviços através de uma relação cliente e servidor.
+
+API > significa Application programming Interface, na tradução, significa Interface de programação de aplicativos, API é a principal ponte entre o front-end e o back-end, ela é responsável por fazer essa comunicação e retornar as informações, que são requisitadas pelo front-end...
+
+NodeJS > O nodeJS é uma plataforma, que permite que a gente execute o JavaScript no back-end, ou seja, do lado do servidor.
+     Antigamente, o Java Script só funcionava na parte do browser/front-end.
+	O node não é uma linguagem de programação, na verdade, ele utiliza a linguagem de programação JS, mas ele tem todo um mecanismo por volta dele, para pegar o código JS, transformar ou interpretar para uma forma que o servidor entenda.
+
+CreateServer > A funcionalidade createServer no JavaScript permite criar um servidor HTTP personalizado que pode receber solicitações de clientes e responder a elas com base na lógica definida pelo desenvolvedor.
+
+WriteHead > Em resumo, writeHead é usado para configurar os cabeçalhos HTTP em uma resposta do servidor antes de enviar a resposta ao cliente.
+
+Módulos > são scripts reaproveitáveis, que utilizamos bastante programando em node, eles são divididos em três categorias; 
+Internos: Módulos que nós desenvolvemos,
+Core Modules: módulos que vem com o node.JS,
+Externos: módulos que instalamos via npm.
+
+Os módulos internos são criados nas pastas do nosso projeto;
+precisamos exportar o módulo
+Podemos utilizar a instrução module.exports;
+E importar módulos que nós desenvolvemos;
+
+Com o node.JS também é possível utilizar o export e import do ES6, são funcionalidades mais modernas de importação e exportação
+Com mais recursos do que as que vimos anteriormente, para isso, precisamos modificar os nossos arquivos para a extensão .mjs, e então podemos exportar uma com export.default,
+e importar com import, uma única função, caso seja necessário.
+
+No node temos diversos Core Modules, que são os que vêm prontos para serem utilizados
+
+Há um outro módulo externo chamado chalk
+ele pode deixar a visualização do console mais agradável
+
